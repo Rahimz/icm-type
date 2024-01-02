@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, maximum-scale=.5" />
+	<title>TYPE</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="jq.js"></script>
+</head>
+<body>
+	<main class="start">
+		<div class="middle">
+			<h3>هر موقع آماده بودی شروع به تایپ کن</h3>
+			<div class="infos">
+				<div class="time">
+					<img src="assets/time.png" alt="">
+					<div class="info">
+						زمان: ۰۰:۴۹
+					</div>
+				</div>
+				<div class="speed">
+					<img src="assets/speed.png" alt="">
+					<div class="info">
+						سرعت: ۹۵
+						<span>کلمه در دقیقه</span>
+					</div>
+				</div>
+				<div class="precision">
+					<img src="assets/precision.png" alt="">
+					<div class="info">
+						دقت: ۸۷٪
+						<span>خطاها: ۲۷</span>
+					</div>
+				</div>
+			</div>
+			<p>
+				<span class="green">یکی از مهم‌ترین تصاویر ثابت در تاریخ گرافیک </span><span class="red">ر</span>ایانه‌ا‌ی جاده‌ای به سوی پوینت رِیِز است که یکی از مهم‌ترین پروژه‌های اولیهٔ لوکاس فیلم بود. در سال 1983 راب کوک کارگردانی تصویر و طراحی صحنه را به عهده گرفت، و آلوی ری اسمیت، لورن کارپنتر، تام پورتر، بیل ریوز و دیوید سالسین عناصر مختلفی از جمله سایه‌زنی، روتین‌های پنهان سطح و فراکتال‌ها را ارائه کردند.
+			</p>
+			<img src="assets/typo.png" class="typo">
+		</div>
+
+
+		<!-- kyes -->
+		<section>
+			<div class="keys">
+				<div>
+					<div class="key"></div>
+				</div>
+				<div>
+					<div class="key"><img src="assets/RA.png" id="test" alt=""></div>
+					<div class="key"></div>
+					<div class="key"></div>
+				</div>
+				<span>کلید [راست] را فشار بده و رکوردت را ثبت کن</span>
+			</div>
+			<div class="keys">
+				<div>
+					<div class="key"></div>
+				</div>
+				<div>
+					<div class="key"></div>
+					<div class="key"></div>
+					<div class="key"><img src="assets/LA.png" alt=""></div>
+				</div>
+				<span>کلید [چپ] را فشار بده و بدون ثبت رکورد از اول شروع کن</span>
+			</div>
+		</section>
+
+
+		<!-- overlay -->
+		<div id="overlay">
+			<div class="record">
+				<div>
+					<h3>رکورد شما</h3>
+					<h1>42 wpm</h1>
+				</div>
+			</div>
+			<div class="register">
+				<div>
+					<h3>ثـبـت رکـود در مـوزه کـامپیوتر ایران</h3>
+					<form action="start.html" method="get">
+						<label for="name">نام خود را وارد کنید <span>(نمایش عمومی)</span></label>
+						<input type="text" id="name" name="name" required>
+						<label for="email">ایمیل خود را وارد کنید <span>(نمایش داده‌نمی‌شود)</span></label>
+						<input type="email" id="email" name="email" required>
+						
+						<input type="submit" value="">
+					</form>
+					
+					<div class="over-keys">
+						<div class="submit">
+							<img src="assets/register.png" alt="">
+							<span>برای ثبت رکوردتان کلید<br>[اینتر] را فشار دهید</span>
+						</div>
+						<div class="back">
+							<img src="assets/esc.png" alt="">
+							<span>برای بازگشت به صفحه‌ی اول<br>کلید [اسکیپ] را فشار دهید</span>
+						</div>
+					</div>
+
+					<img class="tab" src="assets/tab.png" alt="">
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

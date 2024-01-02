@@ -1,0 +1,17 @@
+$fonts: "fonts/Anjoman-";
+@font-face {
+    font-family: "Anjoman-Regular";
+    src: url($fonts + "Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Anjoman-Bold";
+    src: url($fonts + "Bold.woff2") format("woff2");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+$blue: #0F3C6C;
+$cream: #F5EFD9;
+
+$WW: 1899px;
+$HH: 1068px;

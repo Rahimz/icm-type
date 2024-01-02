@@ -1,0 +1,39 @@
+main {
+    section {
+        position: absolute;
+        top: 820px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        width: calc($WW - 180px);
+        // background-color: cadetblue;
+    }
+    .keys {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        > div {
+            display: flex;
+            justify-content: space-between;
+        }
+        .key {
+            width: 115px;
+            height: 56px;
+            margin: 0 3px;
+            border-radius: 10px;
+            margin-bottom: 6px;
+            
+            img {width: 100%;}
+        }
+        span {font-size: 15px; text-align: center;}
+    }
+}
+main.home, main.rankings {
+    section {color: $cream;}
+    .key {background-color: rgba(#FFFFFF, $alpha: 0.2);}
+}
+main.start {
+    section {color: $blue;}
+    .key {background-color: rgba($blue, $alpha: 0.2);}
+}
